@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <!-- Include other widget or layout tags here. These are considered
+            "child views" or "children" of the linear layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="one,one"
+            android:layout_width="0dp"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="one,two"
+            android:layout_width="0dp"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="one,three"
+            android:layout_width="0dp"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="one,four"
+            android:layout_width="0dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn21"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="two,one"
+            android:layout_width="0dp"/>
+
+        <Button
+            android:id="@+id/btn22"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="two,two"
+            android:layout_width="0dp"/>
+
+        <Button
+            android:id="@+id/btn23"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="two,three"
+            android:layout_width="0dp"/>
+
+        <Button
+            android:id="@+id/btn24"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="two,four"
+            android:layout_width="0dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn31"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="three,one"
+            android:layout_width="0dp"/>
+
+        <Button
+            android:id="@+id/btn32"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="three,two"
+            android:layout_width="0dp"/>
+
+        <Button
+            android:id="@+id/btn33"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="three,three"
+            android:layout_width="0dp"/>
+
+        <Button
+            android:id="@+id/btn34"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="three,four"
+            android:layout_width="0dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn41"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="four,one"
+            android:layout_width="0dp"/>
+
+        <Button
+            android:id="@+id/btn42"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="four,two"
+            android:layout_width="0dp"/>
+
+        <Button
+            android:id="@+id/btn43"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="four,three"
+            android:layout_width="0dp"/>
+
+        <Button
+            android:id="@+id/btn44"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="four,four"
+            android:layout_width="0dp" />
+    </LinearLayout>
+
+</LinearLayout>

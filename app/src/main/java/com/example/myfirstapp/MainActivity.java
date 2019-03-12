@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.EditText;
 
 import com.example.myfirstapp.ex1.UnderstandTheActivityLifecycle;
+import com.example.myfirstapp.ex2.ConstraintLayoutTest;
+import com.example.myfirstapp.ex2.LinearLayoutTest;
+import com.example.myfirstapp.ex2.TableLayoutTest;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,6 +31,21 @@ public class MainActivity extends AppCompatActivity {
 
     public void redirectedToUnderstandTheActivityLifecycle(View view) {
         Intent intent = new Intent(this, UnderstandTheActivityLifecycle.class);
+        startActivity(intent);
+    }
+
+    public void redirectedToLinearLayoutTest(View view) {
+        Intent intent = new Intent(this, LinearLayoutTest.class);
+        startActivity(intent);
+    }
+
+    public void redirectedToConstraintLayoutTest(View view) {
+        Intent intent = new Intent(this, ConstraintLayoutTest.class);
+        startActivity(intent);
+    }
+
+    public void redirectedToTableLayoutTest(View view) {
+        Intent intent = new Intent(this, TableLayoutTest.class);
         startActivity(intent);
     }
 }
