@@ -12,11 +12,11 @@ import com.example.myfirstapp.R;
  * Google官方推荐，当使用weight属性时，将width设为0dip即可，
  * 效果跟设成wrap_content是一样的。这样weight就可以理解为占比了！
  */
-public class LinearLayoutTest extends AppCompatActivity {
+public class LinearLayoutSample extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_linear_layout_test);
+        setContentView(R.layout.ex2_1_activity_linear_layout_test);
     }
 }

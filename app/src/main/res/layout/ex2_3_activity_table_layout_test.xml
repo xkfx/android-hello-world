@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:stretchColumns="1">
-
+    <!--代码与教程地址：https://developer.android.com/guide/topics/ui/layout/grid-->
     <TableRow>
         <TextView
             android:layout_column="1"

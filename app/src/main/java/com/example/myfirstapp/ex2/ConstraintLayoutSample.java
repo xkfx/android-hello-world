@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import com.example.myfirstapp.R;
 
-public class TableLayoutTest extends AppCompatActivity {
+public class ConstraintLayoutSample extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_table_layout_test);
+        setContentView(R.layout.ex2_2_constraint_layout_test);
     }
 }

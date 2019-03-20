@@ -21,7 +21,7 @@ public class UnderstandTheActivityLifecycle extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         Log.d("😀活动一", "onCreate");
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_understand_the_lifecycle);
+        setContentView(R.layout.ex1_activity_understand_the_lifecycle);
     }
 
     @Override

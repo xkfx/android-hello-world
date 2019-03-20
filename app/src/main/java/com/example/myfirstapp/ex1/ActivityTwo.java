@@ -12,7 +12,7 @@ public class ActivityTwo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         Log.d("♥活动二", "onCreate");
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_two);
+        setContentView(R.layout.ex1_activity_two);
     }
 
     @Override

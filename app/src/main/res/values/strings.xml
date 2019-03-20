@@ -3,4 +3,11 @@
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
     <string name="ex1_name">UnderstandTheActivityLifecycle</string>
+    <string name="ex3_2_alert_dialog">点击显示AlertDialog</string>
+    <string name="ex3_2_tiger">tiger</string>
+    <string name="android_app">ANDROID APP</string>
+    <string name="username">Username</string>
+    <string name="Password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="cancel">Cancel</string>
 </resources>
