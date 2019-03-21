@@ -4,17 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ex3.AlertDialogSample">
+    tools:context=".ex3.MenuSample">
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/ex3_3_popup_menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="showAlertDialog"
-        android:text="@string/ex3_2_alert_dialog"
-        android:textAllCaps="true"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="24sp"
+        android:onClick="popupMenu"
+        android:text="@string/popup_menu"
+        android:textColor="@android:color/background_dark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

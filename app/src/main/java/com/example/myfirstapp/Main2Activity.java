@@ -9,8 +9,10 @@ import com.example.myfirstapp.ex1.UnderstandTheActivityLifecycle;
 import com.example.myfirstapp.ex2.ConstraintLayoutSample;
 import com.example.myfirstapp.ex2.LinearLayoutSample;
 import com.example.myfirstapp.ex2.TableLayoutSample;
+import com.example.myfirstapp.test0actionmodesample.ActionModeSampleMain;
 import com.example.myfirstapp.ex3.AlertDialogSample;
 import com.example.myfirstapp.ex3.ListViewSample;
+import com.example.myfirstapp.ex3.MenuSample;
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -47,6 +49,16 @@ public class Main2Activity extends AppCompatActivity {
 
     public void ex3_2(View view) {
         Intent intent = new Intent(this, AlertDialogSample.class);
+        startActivity(intent);
+    }
+
+    public void ex3_3(View view) {
+        Intent intent = new Intent(this, MenuSample.class);
+        startActivity(intent);
+    }
+
+    public void ex3_4(View view) {
+        Intent intent = new Intent(this, ActionModeSampleMain.class);
         startActivity(intent);
     }
 }

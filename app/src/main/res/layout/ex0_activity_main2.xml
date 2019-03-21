@@ -82,6 +82,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:onClick="ex3_3"
             android:text="EX3_3" />
 
         <Button
@@ -89,6 +90,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:onClick="ex3_4"
             android:text="EX3_4" />
     </LinearLayout>
 </LinearLayout>

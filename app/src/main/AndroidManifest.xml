@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ex3.AlertDialogSample"></activity>
+        <activity android:name=".test0actionmodesample.ActionModeSampleMain"></activity>
+        <activity android:name=".ex3.MenuSample" />
+        <activity android:name=".ex3.AlertDialogSample" />
         <activity android:name=".ex3.ListViewSample" />
         <activity android:name=".Main2Activity">
             <intent-filter>

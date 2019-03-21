@@ -10,4 +10,21 @@
     <string name="Password">Password</string>
     <string name="sign_in">Sign in</string>
     <string name="cancel">Cancel</string>
+    <string name="over">over</string>
+    <string name="start">start</string>
+    <string name="popup_menu">popup menu</string>
+    <string name="zitidaxiao">字体大小</string>
+    <string name="xiao">小</string>
+    <string name="zhong">中</string>
+    <string name="da">大</string>
+    <string name="putongcaidanxiang">普通菜单项</string>
+    <string name="zi_ti_yan_se">字体颜色</string>
+    <string name="hongse">红色</string>
+    <string name="heise">黑色</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!--  Action Mode Menu Items -->
+    <string name="delete">Delete</string>
+    <string name="copy">Copy</string>
+    <string name="forward">Forward</string>
 </resources>
