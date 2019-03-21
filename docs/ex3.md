@@ -30,7 +30,7 @@
 
 
 
-### [4、创建上下文操作模式(ActionMode)的上下文菜单](https://github.com/xkfx/android-hello-world/blob/master/app/src/main/java/com/example/myfirstapp/ex3/MenuSample.java)
+### [4、创建上下文操作模式(ActionMode)的上下文菜单](https://github.com/xkfx/android-hello-world/tree/master/app/src/main/java/com/example/myfirstapp/test0actionmodesample)
 
 <img src="img/ex3_4.jpg" alt="ex2" align=center />
 
