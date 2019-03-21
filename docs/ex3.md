@@ -36,4 +36,8 @@
 
 
 
-参考自http://www.androhub.com/android-contextual-action-mode-over-toolbar/，长按任意一个item可以呼出ActionMode菜单，然后可以选中任意个item，并支持实际删除模拟数据。
+参考自http://www.androhub.com/android-contextual-action-mode-over-toolbar/
+
+
+
+，长按任意一个item可以呼出ActionMode菜单，然后可以选中任意个item，并支持实际删除模拟数据。
