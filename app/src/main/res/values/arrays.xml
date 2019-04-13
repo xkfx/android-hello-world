@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ex4ListEntries" >
+        <item>测试选项1</item>
+        <item>测试选项2</item>
+        <item>测试选项3</item>
+    </string-array>
+</resources>

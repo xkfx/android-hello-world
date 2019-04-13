@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="我的设置页面">
+
+    <PreferenceCategory
+        android:title="in_line_preference">
+        <CheckBoxPreference
+            android:key="ex4_CheckBoxPreference"
+            android:title="CheckBoxPreference"
+            android:summary="this is a CheckBoxPreference"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="dialog_base_preference">
+        <EditTextPreference
+            android:key="ex4_EditTextPreference"
+            android:title="EditTextPreference"
+            android:summary="this is a EditTextPreference" />
+        <ListPreference
+            android:key="ex4_ListPreference"
+            android:title="ListPreference"
+            android:summary="this is a ListPreference"
+            android:dialogTitle="选一个吧"
+            android:entries="@array/ex4ListEntries"
+            android:entryValues="@array/ex4ListEntries"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="launch_preferences">
+        <PreferenceScreen
+            android:title="Screen Preference"
+            android:summary="Jump to another PreferenceScreen">
+            <CheckBoxPreference
+                android:key="ex4_CheckBoxPreference_312312"
+                android:title="CheckBoxPreference2"
+                android:summary="this is a CheckBoxPreference"
+                android:defaultValue="false" />
+        </PreferenceScreen>
+        <Preference
+            android:title="Intent Preference"
+            android:summary="this is a Intent Preference">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://www.baidu.com" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="test_preference_dependency">
+        <CheckBoxPreference
+            android:key="ex4_CheckBoxPreference_father"
+            android:title="A"
+            android:summary="this is a CheckBoxPreference"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:dependency="ex4_CheckBoxPreference_father"
+            android:key="ex4_CheckBoxPreference_son"
+            android:title="B"
+            android:summary="this is a CheckBoxPreference"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
