@@ -1,22 +1,20 @@
 package com.example.myfirstapp;
 
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.example.myfirstapp.ex1.UnderstandTheActivityLifecycle;
 import com.example.myfirstapp.ex2.ConstraintLayoutSample;
 import com.example.myfirstapp.ex2.LinearLayoutSample;
 import com.example.myfirstapp.ex2.TableLayoutSample;
-import com.example.myfirstapp.ex4.PrefFragmentSample;
-import com.example.myfirstapp.ex4.SettingsActivity;
-import com.example.myfirstapp.test0actionmodesample.ActionModeSampleMain;
 import com.example.myfirstapp.ex3.AlertDialogSample;
 import com.example.myfirstapp.ex3.ListViewSample;
 import com.example.myfirstapp.ex3.MenuSample;
+import com.example.myfirstapp.ex4.SettingsActivity;
+import com.example.myfirstapp.ex5.LaunchBrowser;
+import com.example.myfirstapp.test0actionmodesample.ActionModeSampleMain;
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -68,6 +66,11 @@ public class Main2Activity extends AppCompatActivity {
 
     public void ex4_0(View view) {
         Intent intent = new Intent(this, SettingsActivity.class);
+        startActivity(intent);
+    }
+
+    public void ex5_0(View view) {
+        Intent intent = new Intent(this, LaunchBrowser.class);
         startActivity(intent);
     }
 }
